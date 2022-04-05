@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Media;
 
 namespace Bears_Aventure_Game
 {
@@ -169,6 +170,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "Go back and find backpack";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.bearsWithBag;
+
                     break;
                 case 2:
 
@@ -176,6 +179,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.missingBag;
 
                     break;
                 case 3:
@@ -185,6 +190,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "Ask pigeons watching basketball game for help";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.missingBag;
+
                     break;
                 case 4:
 
@@ -192,6 +199,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.cops_are_no_help;
 
                     break;
                 case 5:
@@ -201,6 +210,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "Track down suspect";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.asking_pigeons_for_help;
+
                     break;
                 case 6:
 
@@ -208,6 +219,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.lose_ending;
 
                     break;
                 case 7:
@@ -217,6 +230,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "Expose the suspect online";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.apartment;
+
                     break;
                 case 8:
 
@@ -224,6 +239,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Open bag as proof";
                     option2Label.Text = "Keep bag closed";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.bears_on_side_of_building;
 
                     break;
                 case 9:
@@ -233,6 +250,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "No";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.expose_online;
+
                     break;
                 case 10:
 
@@ -240,6 +259,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "apologize";
                     option2Label.Text = "cause a scene";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.bears_on_edge__closeup_;
 
                     break;
                 case 11:
@@ -249,6 +270,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "No";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.cop_cars;
+
                     break;
                 case 12:
 
@@ -256,6 +279,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.lose_ending;
 
                     break;
                 case 13:
@@ -265,6 +290,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "Attack pigeons";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.shattered;
+
                     break;
                 case 14:
 
@@ -272,6 +299,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.trampoline;
 
                     break;
                 case 15:
@@ -281,6 +310,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "Hand yourself over and reason with cops";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.bears_on_side_of_building;
+
                     break;
                 case 16:
 
@@ -288,6 +319,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Tell them the pigeons are thieves";
                     option2Label.Text = "Explain how you broke into someone's apartment";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.cop_cars;
 
                     break;
                 case 17:
@@ -297,6 +330,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "No";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.bag_recovery_2;
+
                     break;
                 case 18:
 
@@ -304,6 +339,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.lose_ending;
 
                     break;
                 case 19:
@@ -313,6 +350,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "No";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.pigeons_building;
+
                     break;
                 case 20:
 
@@ -320,6 +359,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.bag_recovery_2;
 
                     break;
                 case 21:
@@ -329,6 +370,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "No";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.sad;
+
                     break;
                 case 22:
 
@@ -336,6 +379,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.bag_recovery;
 
                     break;
                 case 23:
@@ -345,6 +390,8 @@ namespace Bears_Aventure_Game
                     option2Label.Text = "Sneak away";
                     option3Label.Text = "";
 
+                    imageBox.Image = Properties.Resources.bears_on_edge__closeup_;
+
                     break;
                 case 100:
 
@@ -352,6 +399,8 @@ namespace Bears_Aventure_Game
                     option1Label.Text = "";
                     option2Label.Text = "";
                     option3Label.Text = "";
+
+                    imageBox.Image = Properties.Resources.win_ending;
 
                     break;
 

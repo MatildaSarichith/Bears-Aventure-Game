@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 missing bag.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cops are no help.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asking pigeons for help.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lose ending.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apartment.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bears on side of building.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expose online.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bears on edge %28closeup%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cop cars.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trampoline.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shattered.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cops.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag recovery 2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pigeons building.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sad.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag recovery.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\win ending.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
