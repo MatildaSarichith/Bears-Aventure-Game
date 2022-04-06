@@ -154,6 +154,10 @@ namespace Bears_Aventure_Game
             option2Label.Text = "Go back and find backpack";
             option3Label.Text = "";
 
+            imageBox.Image = Properties.Resources.bearsWithBag;
+            SoundPlayer player = new SoundPlayer(Properties.Resources.basketballbouncing);
+            player.Play();
+
             switch (page)
             {
                 case 1:
@@ -171,7 +175,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bearsWithBag;
-
+                    SoundPlayer player1 = new SoundPlayer(Properties.Resources.basketballbouncing);
+                    player1.Play();
                     break;
                 case 2:
 
@@ -181,7 +186,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.missingBag;
-
+                    SoundPlayer player2 = new SoundPlayer(Properties.Resources.gameover);
+                    player2.Play();
                     break;
                 case 3:
 
@@ -191,7 +197,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.missingBag;
-
+                    SoundPlayer player3 = new SoundPlayer(Properties.Resources.parknoise);
+                    player3.Play();
                     break;
                 case 4:
 
@@ -201,7 +208,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.cops_are_no_help;
-
+                    SoundPlayer player4 = new SoundPlayer(Properties.Resources.policenoise);
+                    player4.Play();
                     break;
                 case 5:
 
@@ -211,7 +219,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.asking_pigeons_for_help;
-
+                    SoundPlayer player5 = new SoundPlayer(Properties.Resources.pigeons);
+                    player5.Play();
                     break;
                 case 6:
 
@@ -221,7 +230,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.lose_ending;
-
+                    SoundPlayer player6 = new SoundPlayer(Properties.Resources.gameover);
+                    player6.Play();
                     break;
                 case 7:
 
@@ -231,7 +241,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.apartment;
-
+                    SoundPlayer player7 = new SoundPlayer(Properties.Resources.citynoise);
+                    player7.Play();
                     break;
                 case 8:
 
@@ -241,7 +252,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bears_on_side_of_building;
-
+                    SoundPlayer player8 = new SoundPlayer(Properties.Resources.glass);
+                    player8.Play();
                     break;
                 case 9:
 
@@ -251,7 +263,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.expose_online;
-
+                    SoundPlayer player9 = new SoundPlayer(Properties.Resources.gameover);
+                    player9.Play();
                     break;
                 case 10:
 
@@ -261,7 +274,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bears_on_edge__closeup_;
-
+                    SoundPlayer player10 = new SoundPlayer(Properties.Resources.citynoise);
+                    player10.Play();
                     break;
                 case 11:
 
@@ -271,7 +285,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.cop_cars;
-
+                    SoundPlayer player11 = new SoundPlayer(Properties.Resources.winmusic);
+                    player11.Play();
                     break;
                 case 12:
 
@@ -281,7 +296,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.lose_ending;
-
+                    SoundPlayer player12 = new SoundPlayer(Properties.Resources.gameover);
+                    player12.Play();
                     break;
                 case 13:
 
@@ -291,7 +307,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.shattered;
-
+                    SoundPlayer player13 = new SoundPlayer(Properties.Resources.glass);
+                    player13.Play();
                     break;
                 case 14:
 
@@ -301,7 +318,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.trampoline;
-
+                    SoundPlayer player14 = new SoundPlayer(Properties.Resources.whoosh);
+                    player14.Play();
                     break;
                 case 15:
 
@@ -311,7 +329,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bears_on_side_of_building;
-
+                    SoundPlayer player15 = new SoundPlayer(Properties.Resources.citynoise);
+                    player15.Play();
                     break;
                 case 16:
 
@@ -321,7 +340,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.cop_cars;
-
+                    SoundPlayer player16 = new SoundPlayer(Properties.Resources.policenoise);
+                    player16.Play();
                     break;
                 case 17:
 
@@ -331,7 +351,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bag_recovery_2;
-
+                    SoundPlayer player17 = new SoundPlayer(Properties.Resources.winmusic);
+                    player17.Play();
                     break;
                 case 18:
 
@@ -341,7 +362,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.lose_ending;
-
+                    SoundPlayer player18 = new SoundPlayer(Properties.Resources.gameover);
+                    player18.Play();
                     break;
                 case 19:
 
@@ -351,7 +373,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.pigeons_building;
-
+                    SoundPlayer player19 = new SoundPlayer(Properties.Resources.gameover);
+                    player19.Play();
                     break;
                 case 20:
 
@@ -361,7 +384,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bag_recovery_2;
-
+                    SoundPlayer player20 = new SoundPlayer(Properties.Resources.pigeons);
+                    player20.Play();
                     break;
                 case 21:
 
@@ -371,7 +395,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.sad;
-
+                    SoundPlayer player21 = new SoundPlayer(Properties.Resources.gameover);
+                    player21.Play();
                     break;
                 case 22:
 
@@ -381,7 +406,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bag_recovery;
-
+                    SoundPlayer player22 = new SoundPlayer(Properties.Resources.policenoise);
+                    player22.Play();
                     break;
                 case 23:
 
@@ -391,7 +417,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.bears_on_edge__closeup_;
-
+                    SoundPlayer player23 = new SoundPlayer(Properties.Resources.citynoise);
+                    player23.Play();
                     break;
                 case 100:
 
@@ -401,7 +428,8 @@ namespace Bears_Aventure_Game
                     option3Label.Text = "";
 
                     imageBox.Image = Properties.Resources.win_ending;
-
+                    SoundPlayer player24 = new SoundPlayer(Properties.Resources.winmusic);
+                    player24.Play();
                     break;
 
                     Thread.Sleep(3000);

@@ -101,6 +101,15 @@ namespace Bears_Aventure_Game.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream basketballbouncing {
+            get {
+                return ResourceManager.GetStream("basketballbouncing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap bears_on_edge__closeup_ {
@@ -127,6 +136,15 @@ namespace Bears_Aventure_Game.Properties {
             get {
                 object obj = ResourceManager.GetObject("bearsWithBag", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream citynoise {
+            get {
+                return ResourceManager.GetStream("citynoise", resourceCulture);
             }
         }
         
@@ -171,6 +189,24 @@ namespace Bears_Aventure_Game.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gameover {
+            get {
+                return ResourceManager.GetStream("gameover", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream glass {
+            get {
+                return ResourceManager.GetStream("glass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap lose_ending {
@@ -191,12 +227,39 @@ namespace Bears_Aventure_Game.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream parknoise {
+            get {
+                return ResourceManager.GetStream("parknoise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pigeons {
+            get {
+                return ResourceManager.GetStream("pigeons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap pigeons_building {
             get {
                 object obj = ResourceManager.GetObject("pigeons_building", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream policenoise {
+            get {
+                return ResourceManager.GetStream("policenoise", resourceCulture);
             }
         }
         
@@ -221,6 +284,15 @@ namespace Bears_Aventure_Game.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to pigeons.
+        /// </summary>
+        internal static string String {
+            get {
+                return ResourceManager.GetString("String", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap trampoline {
@@ -231,12 +303,30 @@ namespace Bears_Aventure_Game.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream whoosh {
+            get {
+                return ResourceManager.GetStream("whoosh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap win_ending {
             get {
                 object obj = ResourceManager.GetObject("win_ending", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream winmusic {
+            get {
+                return ResourceManager.GetStream("winmusic", resourceCulture);
             }
         }
     }

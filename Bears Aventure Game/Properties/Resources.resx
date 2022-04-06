@@ -130,6 +130,9 @@
   <data name="bag_recovery_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bag recovery 2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="basketballbouncing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basketballbouncing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="bearsWithBag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,6 +141,9 @@
   </data>
   <data name="bears_on_side_of_building" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bears on side of building.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="citynoise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\398159__inspectorj__ambience-london-street-a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="cops" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cops.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,14 +157,29 @@
   <data name="expose_online" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\expose online.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gameover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gameover.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\559358__garuda1982__glass-shattered-in-container-sound-effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lose_ending" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lose ending.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="missingBag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2 missing bag.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="parknoise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\195437__littlebrojay__just-birds.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pigeons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pigeons.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="pigeons_building" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pigeons building.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="policenoise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\159754__conleec__misc-police-siren-various-stationary-001.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sad.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +187,17 @@
   <data name="shattered" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shattered.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="String" xml:space="preserve">
+    <value>pigeons</value>
+  </data>
   <data name="trampoline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trampoline.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whoosh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\530445__mellau__whoosh-short-3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="winmusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416778__mativve__happy-sandbox.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="win_ending" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\win ending.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

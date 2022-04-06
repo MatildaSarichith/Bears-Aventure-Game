@@ -134,5 +134,32 @@
   <ItemGroup>
     <None Include="Resources\win ending.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basketballbouncing.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameover.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\159754__conleec__misc-police-siren-various-stationary-001.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pigeons.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\398159__inspectorj__ambience-london-street-a.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\559358__garuda1982__glass-shattered-in-container-sound-effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\416778__mativve__happy-sandbox.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\530445__mellau__whoosh-short-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\195437__littlebrojay__just-birds.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
