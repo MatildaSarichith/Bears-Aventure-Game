@@ -33,7 +33,7 @@ namespace Bears_Aventure_Game
             {
                 page = 101;
             }
-            else if (page ==3)
+            else if (page == 3)
             {
                 page = 4;
             }
@@ -57,6 +57,10 @@ namespace Bears_Aventure_Game
             {
                 page = 10;
             }
+            else if (page == 9)
+            {
+                page = 100;
+            }
             else if (page == 10)
             {
                 page = 11;
@@ -65,17 +69,13 @@ namespace Bears_Aventure_Game
             {
                 page = 100;
             }
+            else if (page == 12)
+            {
+                page = 101;
+            }
             else if (page == 13)
             {
-                int chance = randGen.Next(1, 11);
-                if (chance <= 3)
-                {
-                    page = 19;
-                }
-                else
-                {
-                    page = 20;
-                }
+                page = 16;
             }
             else if (page == 14)
             {
@@ -83,7 +83,7 @@ namespace Bears_Aventure_Game
             }
             else if (page == 15)
             {
-                page = 22;
+                page = 21;
             }
             else if (page == 16)
             {
@@ -96,6 +96,30 @@ namespace Bears_Aventure_Game
             else if (page == 19)
             {
                 page = 101;
+            }
+            else if (page == 20)
+            {
+                page = 100;
+            }
+            else if (page == 21)
+            {
+                page = 101;
+            }
+            else if (page == 22)
+            {
+                page = 100;
+            }
+            else if (page == 23)
+            {
+                int chance = randGen.Next(1, 6);
+                if (chance == 1)
+                {
+                    page = 14;
+                }
+                else
+                {
+                    page = 13;
+                }
             }
             else if (page == 100 || page == 101)
             {
@@ -123,9 +147,29 @@ namespace Bears_Aventure_Game
             {
                 page = 9;
             }
+            else if (page == 8)
+            {
+                page = 23;
+            }
+            else if (page == 10)
+            {
+                page = 12;
+            }
+            else if (page == 13)
+            {
+                int chance = randGen.Next(1, 11);
+                if (chance <= 3)
+                {
+                    page = 19;
+                }
+                else
+                {
+                    page = 20;
+                }
+            }
             else if (page == 15)
             {
-                page = 21;
+                page = 22;
             }
             else if (page == 18)
             {
@@ -142,15 +186,7 @@ namespace Bears_Aventure_Game
             }
             else if (page == 23)
             {
-                int chance = randGen.Next(1, 6);
-                if (chance == 1)
-                {
-                    page = 14;
-                }
-                else
-                {
-                    page = 13;
-                }
+                page = 15;
             }
             else if (page == 100 || page == 101)
             {
@@ -160,10 +196,6 @@ namespace Bears_Aventure_Game
             DisplayPage();
         }
 
-        private void option3Button_Click(object sender, EventArgs e)
-        {
-
-        } 
         public void DisplayPage()
         {
             option1Button.Visible = true;

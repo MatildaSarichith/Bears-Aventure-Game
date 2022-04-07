@@ -55,7 +55,7 @@
             this.option1Label.Location = new System.Drawing.Point(66, 310);
             this.option1Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option1Label.Name = "option1Label";
-            this.option1Label.Size = new System.Drawing.Size(105, 32);
+            this.option1Label.Size = new System.Drawing.Size(122, 32);
             this.option1Label.TabIndex = 1;
             // 
             // option2Label
@@ -64,7 +64,7 @@
             this.option2Label.Location = new System.Drawing.Point(253, 310);
             this.option2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.option2Label.Name = "option2Label";
-            this.option2Label.Size = new System.Drawing.Size(105, 32);
+            this.option2Label.Size = new System.Drawing.Size(128, 32);
             this.option2Label.TabIndex = 2;
             // 
             // option3Label
